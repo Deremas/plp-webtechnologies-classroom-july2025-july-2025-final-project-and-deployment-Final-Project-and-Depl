@@ -98,8 +98,8 @@ tech-glossary-2025/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/tech-glossary-2025.git
-   cd tech-glossary-2025
+   git clone https://github.com/Deremas/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl.git
+   cd plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl
    ```
 
 2. **Open in your browser**
