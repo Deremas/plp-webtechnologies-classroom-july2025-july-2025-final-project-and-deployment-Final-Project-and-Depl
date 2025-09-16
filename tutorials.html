@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive tutorials and learning resources for modern web development technologies. Master JavaScript, CSS, React, and more.">
+    <title>Tutorials - Tech Glossary</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <!-- <img src="images/logo.png" alt="Tech Glossary Logo"> -->
+                <span>Tech Glossary</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="tutorials.html" class="active">Tutorials</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Developer Tutorials</h1>
+                <p>Master modern web development with our comprehensive tutorials, hands-on projects, and expert guidance.</p>
+            </div>
+        </section>
+
+        <!-- Tutorial Categories -->
+        <section class="section-title">
+            <h2>Comprehensive Tutorial Categories</h2>
+            <p>Our structured learning paths are designed to take you from beginner to professional level. Each category includes hands-on projects, real-world examples, and industry best practices.</p>
+        </section>
+
+        <section class="grid grid-3">
+            <div class="card" id="javascript">
+                <h3>🚀 JavaScript Fundamentals</h3>
+                <p>JavaScript is the backbone of modern web development, powering everything from simple websites to complex applications. Our comprehensive JavaScript curriculum covers everything from basic syntax to advanced concepts.</p>
+                
+                <p><strong>Beginner Level (Weeks 1-4):</strong></p>
+                <ul>
+                    <li>Variables, data types, and operators</li>
+                    <li>Functions, scope, and closures</li>
+                    <li>Objects, arrays, and iteration methods</li>
+                    <li>DOM manipulation and event handling</li>
+                </ul>
+                
+                <p><strong>Intermediate Level (Weeks 5-8):</strong></p>
+                <ul>
+                    <li>ES6+ features: arrow functions, destructuring, spread operator</li>
+                    <li>Async programming: Promises, async/await, Generators</li>
+                    <li>Modules and package management with npm/yarn</li>
+                    <li>Error handling and debugging techniques</li>
+                </ul>
+                
+                <p><strong>Advanced Level (Weeks 9-12):</strong></p>
+                <ul>
+                    <li>Design patterns and architectural concepts</li>
+                    <li>Performance optimization and memory management</li>
+                    <li>Testing with Jest and modern testing frameworks</li>
+                    <li>Build tools: Webpack, Vite, and bundling strategies</li>
+                </ul>
+                
+                <p><strong>Projects You'll Build:</strong> Interactive calculator, weather app, task manager, and a full-stack blog application.</p>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="card-link">Start JavaScript Journey</a>
+            </div>
+            
+            <div class="card" id="css">
+                <h3>🎨 CSS & Modern Styling</h3>
+                <p>CSS has evolved into a powerful styling language capable of creating sophisticated layouts and animations. Learn modern CSS techniques that will make your websites stand out.</p>
+                
+                <p><strong>Foundation Level (Weeks 1-3):</strong></p>
+                <ul>
+                    <li>CSS selectors, specificity, and cascade</li>
+                    <li>Box model, positioning, and display properties</li>
+                    <li>Typography, colors, and visual design principles</li>
+                    <li>CSS Grid fundamentals and basic layouts</li>
+                </ul>
+                
+                <p><strong>Intermediate Level (Weeks 4-6):</strong></p>
+                <ul>
+                    <li>Flexbox for flexible layouts and alignment</li>
+                    <li>CSS Custom Properties (variables) for theming</li>
+                    <li>Responsive design with media queries</li>
+                    <li>CSS animations and transitions</li>
+                </ul>
+                
+                <p><strong>Advanced Level (Weeks 7-9):</strong></p>
+                <ul>
+                    <li>Advanced CSS Grid techniques and subgrid</li>
+                    <li>CSS-in-JS and modern styling approaches</li>
+                    <li>Performance optimization and critical CSS</li>
+                    <li>Design systems and component-based styling</li>
+                </ul>
+                
+                <p><strong>Projects You'll Build:</strong> Responsive portfolio website, animated landing page, CSS art gallery, and a design system component library.</p>
+                <a href="https://css-tricks.com/" target="_blank" class="card-link">Master CSS Styling</a>
+            </div>
+            
+            <div class="card" id="react">
+                <h3>⚛️ React Development</h3>
+                <p>React has revolutionized frontend development with its component-based architecture and powerful ecosystem. Learn to build modern, scalable user interfaces.</p>
+                
+                <p><strong>Getting Started (Weeks 1-3):</strong></p>
+                <ul>
+                    <li>React fundamentals: components, JSX, and props</li>
+                    <li>State management with useState and useEffect hooks</li>
+                    <li>Event handling and form management</li>
+                    <li>Component lifecycle and side effects</li>
+                </ul>
+                
+                <p><strong>Intermediate Concepts (Weeks 4-6):</strong></p>
+                <ul>
+                    <li>Advanced hooks: useReducer, useContext, custom hooks</li>
+                    <li>State management with Context API and Redux</li>
+                    <li>Routing with React Router and navigation</li>
+                    <li>Performance optimization: memo, useMemo, useCallback</li>
+                </ul>
+                
+                <p><strong>Advanced Topics (Weeks 7-9):</strong></p>
+                <ul>
+                    <li>Server-side rendering with Next.js</li>
+                    <li>Testing React components with Jest and React Testing Library</li>
+                    <li>Advanced patterns: render props, higher-order components</li>
+                    <li>Deployment and production optimization</li>
+                </ul>
+                
+                <p><strong>Projects You'll Build:</strong> Todo app with authentication, e-commerce product catalog, real-time chat application, and a full-stack social media platform.</p>
+                <a href="https://react.dev/" target="_blank" class="card-link">Build with React</a>
+            </div>
+        </section>
+
+        <!-- Advanced Topics -->
+        <section class="section-title">
+            <h2>Advanced Specializations</h2>
+            <p>Master specialized areas of web development that are in high demand. These advanced topics will set you apart in the job market and prepare you for senior-level positions.</p>
+        </section>
+
+        <section class="grid grid-2">
+            <div class="card" id="cloud">
+                <h3>☁️ Cloud & DevOps Engineering</h3>
+                <p>Cloud computing and DevOps have become essential skills for modern developers. Learn to deploy, scale, and maintain applications using industry-standard tools and practices.</p>
+                
+                <p><strong>Cloud Platforms (Weeks 1-4):</strong></p>
+                <ul>
+                    <li>AWS: EC2, S3, Lambda, RDS, and CloudFormation</li>
+                    <li>Azure: Virtual Machines, App Service, and Azure DevOps</li>
+                    <li>Google Cloud: Compute Engine, Cloud Storage, and Kubernetes Engine</li>
+                    <li>Multi-cloud strategies and vendor comparison</li>
+                </ul>
+                
+                <p><strong>Containerization (Weeks 5-7):</strong></p>
+                <ul>
+                    <li>Docker fundamentals: images, containers, and Dockerfile</li>
+                    <li>Docker Compose for multi-container applications</li>
+                    <li>Container registry and image optimization</li>
+                    <li>Security best practices for containers</li>
+                </ul>
+                
+                <p><strong>Orchestration & Automation (Weeks 8-10):</strong></p>
+                <ul>
+                    <li>Kubernetes: pods, services, deployments, and scaling</li>
+                    <li>CI/CD pipelines with GitHub Actions, Jenkins, and GitLab</li>
+                    <li>Infrastructure as Code with Terraform and CloudFormation</li>
+                    <li>Monitoring, logging, and observability with Prometheus and Grafana</li>
+                </ul>
+                
+                <p><strong>Projects You'll Build:</strong> Microservices architecture, automated deployment pipeline, scalable web application, and monitoring dashboard.</p>
+                <a href="https://aws.amazon.com/training/" target="_blank" class="card-link">Master Cloud & DevOps</a>
+            </div>
+            
+            <div class="card">
+                <h3>📱 Mobile Development</h3>
+                <p>Mobile development offers unique opportunities to reach users on their most personal devices. Learn both cross-platform and native development approaches.</p>
+                
+                <p><strong>Cross-Platform Development (Weeks 1-4):</strong></p>
+                <ul>
+                    <li>React Native: components, navigation, and native modules</li>
+                    <li>Flutter: widgets, state management, and platform channels</li>
+                    <li>Progressive Web Apps (PWA) with service workers</li>
+                    <li>Performance optimization and debugging techniques</li>
+                </ul>
+                
+                <p><strong>Native Development (Weeks 5-7):</strong></p>
+                <ul>
+                    <li>iOS development with Swift and Xcode</li>
+                    <li>Android development with Kotlin and Android Studio</li>
+                    <li>Platform-specific features and APIs</li>
+                    <li>App architecture patterns: MVC, MVVM, and Clean Architecture</li>
+                </ul>
+                
+                <p><strong>App Store & Distribution (Weeks 8-9):</strong></p>
+                <ul>
+                    <li>App store optimization (ASO) and marketing</li>
+                    <li>App deployment and release management</li>
+                    <li>Analytics integration and user feedback</li>
+                    <li>Monetization strategies: freemium, subscriptions, and ads</li>
+                </ul>
+                
+                <p><strong>Projects You'll Build:</strong> Cross-platform fitness tracker, native iOS/Android app, PWA for e-commerce, and app store optimization case study.</p>
+                <a href="https://reactnative.dev/" target="_blank" class="card-link">Build Mobile Apps</a>
+            </div>
+        </section>
+
+
+        <!-- Learning Resources -->
+        <section class="section-title">
+            <h2>External Learning Resources</h2>
+            <p>Curated list of the best online resources to supplement your learning journey.</p>
+        </section>
+
+        <section class="recommendations">
+            <h2>Recommended Learning Platforms</h2>
+            <ul>
+                <li>
+                    <strong>MDN Web Docs</strong><br>
+                    <a href="https://developer.mozilla.org/" target="_blank">https://developer.mozilla.org/</a> - Comprehensive documentation for web technologies
+                </li>
+                <li>
+                    <strong>React Official Documentation</strong><br>
+                    <a href="https://react.dev/" target="_blank">https://react.dev/</a> - Official React learning resources and tutorials
+                </li>
+                <li>
+                    <strong>Developer Roadmaps</strong><br>
+                    <a href="https://roadmap.sh/" target="_blank">https://roadmap.sh/</a> - Visual roadmaps for different development paths
+                </li>
+                <li>
+                    <strong>CSS-Tricks</strong><br>
+                    <a href="https://css-tricks.com/" target="_blank">https://css-tricks.com/</a> - Advanced CSS techniques and tutorials
+                </li>
+                <li>
+                    <strong>JavaScript.info</strong><br>
+                    <a href="https://javascript.info/" target="_blank">https://javascript.info/</a> - Modern JavaScript tutorial from basics to advanced
+                </li>
+                <li>
+                    <strong>FreeCodeCamp</strong><br>
+                    <a href="https://www.freecodecamp.org/" target="_blank">https://www.freecodecamp.org/</a> - Free coding bootcamp with certifications
+                </li>
+            </ul>
+        </section>
+
+        <!-- Project Ideas -->
+        <section class="section-title">
+            <h2>Hands-On Projects</h2>
+            <p>Apply your knowledge by building real-world projects and adding them to your portfolio.</p>
+        </section>
+
+        <section class="grid grid-3">
+            <div class="card">
+                <h3>📝 Todo Application</h3>
+                <p>Build a full-stack todo application with user authentication, CRUD operations, and real-time updates.</p>
+                <p><strong>Technologies:</strong> React, Node.js, MongoDB, Socket.io</p>
+                <a href="#" class="card-link">View Project</a>
+            </div>
+            <div class="card">
+                <h3>🛒 E-commerce Store</h3>
+                <p>Create a complete e-commerce platform with payment integration, inventory management, and admin dashboard.</p>
+                <p><strong>Technologies:</strong> Next.js, Stripe, PostgreSQL, Prisma</p>
+                <a href="#" class="card-link">View Project</a>
+            </div>
+            <div class="card">
+                <h3>📊 Dashboard Application</h3>
+                <p>Develop a data visualization dashboard with charts, real-time updates, and responsive design.</p>
+                <p><strong>Technologies:</strong> Vue.js, D3.js, Express.js, Redis</p>
+                <a href="#" class="card-link">View Project</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tech Glossary. All rights reserved.</p>
+        <p>
+            Follow us on 
+            <a href="https://twitter.com/techglossary" target="_blank" rel="noopener">Twitter</a> | 
+            <a href="https://linkedin.com/company/techglossary" target="_blank" rel="noopener">LinkedIn</a> | 
+            <a href="https://github.com/techglossary" target="_blank" rel="noopener">GitHub</a>
+        </p>
+        <p>Built with ❤️ for the developer community by <a href="https://github.com/Deremas" target="_blank" rel="noopener noreferrer">Dereje</a></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
